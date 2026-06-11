@@ -12,7 +12,7 @@
     "cer": 0.0,
     "exact_match": true,
     "elapsed_seconds": "2.543566",
-    "evaluated_at_utc": "2026-06-11T06:02:52.389563+00:00"
+    "evaluated_at_utc": "2026-06-11T06:32:16.194532+00:00"
   },
   {
     "trial_id": "SVS_ASR_A2_001",
@@ -27,7 +27,7 @@
     "cer": 0.0,
     "exact_match": true,
     "elapsed_seconds": "1.520869",
-    "evaluated_at_utc": "2026-06-11T06:02:52.389563+00:00"
+    "evaluated_at_utc": "2026-06-11T06:32:16.194532+00:00"
   },
   {
     "trial_id": "SVS_ASR_B1_001",
@@ -42,6 +42,6 @@
     "cer": 0.0,
     "exact_match": true,
     "elapsed_seconds": "4.675799",
-    "evaluated_at_utc": "2026-06-11T06:02:52.390635+00:00"
+    "evaluated_at_utc": "2026-06-11T06:32:16.194532+00:00"
   }
 ]
