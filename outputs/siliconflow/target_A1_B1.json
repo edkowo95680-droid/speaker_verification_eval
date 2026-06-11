@@ -1,0 +1,25 @@
+{
+  "task_type": "speaker_verification_by_audio_llm",
+  "trial_id": "SF_NONTARGET_001",
+  "ground_truth": "different",
+  "provider": "siliconflow",
+  "model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "audio_1": "D:\\Alpha\\speaker_verification_eval\\data\\A1.wav",
+  "audio_2": "D:\\Alpha\\speaker_verification_eval\\data\\B1.wav",
+  "prompt": "你将按顺序收到两段相互独立的语音，分别称为“音频1”和“音频2”。\n\n任务：判断两段语音是否由同一个自然人说出。\n\n判断时主要考虑说话人的音色、共振特征、发音习惯、语速和其他稳定的说话人特征。\n不要仅根据语音中的文字内容是否相同进行判断。\n\n允许的判断结果只有：\nsame：两段语音来自同一个人\ndifferent：两段语音来自不同的人\nuncertain：现有音频不足以可靠判断\n\n返回一个JSON对象，且只能包含以下两个字段：\ndecision：取值必须为same、different或uncertain\nconfidence：0到1之间的数字，表示你对本次判断的确信程度\n\n不要输出解释、Markdown、代码块或其他内容。\n不要采用任何默认答案，必须根据实际收到的两段音频独立判断。",
+  "raw_response": "{\n  \"decision\": \"different\",\n  \"confidence\": 0.95\n}",
+  "parsed_response": {
+    "decision": "different",
+    "confidence": 0.95
+  },
+  "elapsed_seconds": 5.719725,
+  "usage": {
+    "completion_tokens": 19,
+    "prompt_tokens": 304,
+    "total_tokens": 323,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null
+  },
+  "response_id": "019eab633664a1c46bebb65f3839481f",
+  "created_at_utc": "2026-06-09T07:57:43.762889+00:00"
+}
