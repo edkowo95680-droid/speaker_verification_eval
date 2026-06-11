@@ -1,0 +1,17 @@
+{
+  "task_type": "audio_transcription",
+  "trial_id": "SVS_ASR_A2_001",
+  "provider": "siliconflow",
+  "model": "FunAudioLLM/SenseVoiceSmall",
+  "audio": "D:\\Alpha\\speaker_verification_eval\\data\\A2.wav",
+  "audio_filename": "A2.wav",
+  "http_status_code": 200,
+  "raw_text": "{\"text\":\"那我一会儿就可以测试等会儿。\"}",
+  "response_json": {
+    "text": "那我一会儿就可以测试等会儿。"
+  },
+  "transcript": "那我一会儿就可以测试等会儿。",
+  "elapsed_seconds": 1.520869,
+  "trace_id": "ti_tibcmvi86cm1ieicfy",
+  "created_at_utc": "2026-06-11T03:37:29.174424+00:00"
+}

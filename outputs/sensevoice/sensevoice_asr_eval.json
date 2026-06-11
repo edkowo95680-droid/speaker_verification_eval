@@ -1,0 +1,47 @@
+[
+  {
+    "trial_id": "SVS_ASR_A1_001",
+    "audio": "data/A1.wav",
+    "model": "FunAudioLLM/SenseVoiceSmall",
+    "ground_truth_text": "你好你好你好这还是我",
+    "predicted_text": "你好你好你好，这还是我。",
+    "normalized_ground_truth": "你好你好你好这还是我",
+    "normalized_prediction": "你好你好你好这还是我",
+    "edit_distance": 0,
+    "reference_char_count": 10,
+    "cer": 0.0,
+    "exact_match": true,
+    "elapsed_seconds": "2.543566",
+    "evaluated_at_utc": "2026-06-11T06:02:52.389563+00:00"
+  },
+  {
+    "trial_id": "SVS_ASR_A2_001",
+    "audio": "data/A2.wav",
+    "model": "FunAudioLLM/SenseVoiceSmall",
+    "ground_truth_text": "那我一会儿就可以测试等会儿",
+    "predicted_text": "那我一会儿就可以测试等会儿。",
+    "normalized_ground_truth": "那我一会儿就可以测试等会儿",
+    "normalized_prediction": "那我一会儿就可以测试等会儿",
+    "edit_distance": 0,
+    "reference_char_count": 13,
+    "cer": 0.0,
+    "exact_match": true,
+    "elapsed_seconds": "1.520869",
+    "evaluated_at_utc": "2026-06-11T06:02:52.389563+00:00"
+  },
+  {
+    "trial_id": "SVS_ASR_B1_001",
+    "audio": "data/B1.wav",
+    "model": "FunAudioLLM/SenseVoiceSmall",
+    "ground_truth_text": "好吗你好你好这不是我",
+    "predicted_text": "好吗。你好你好，这不是我。",
+    "normalized_ground_truth": "好吗你好你好这不是我",
+    "normalized_prediction": "好吗你好你好这不是我",
+    "edit_distance": 0,
+    "reference_char_count": 10,
+    "cer": 0.0,
+    "exact_match": true,
+    "elapsed_seconds": "4.675799",
+    "evaluated_at_utc": "2026-06-11T06:02:52.390635+00:00"
+  }
+]

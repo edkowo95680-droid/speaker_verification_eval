@@ -1,0 +1,4 @@
+﻿trial_id,audio,model,ground_truth_text,predicted_text,normalized_ground_truth,normalized_prediction,edit_distance,reference_char_count,cer,exact_match,elapsed_seconds,evaluated_at_utc
+SVS_ASR_A1_001,data/A1.wav,FunAudioLLM/SenseVoiceSmall,你好你好你好这还是我,你好你好你好，这还是我。,你好你好你好这还是我,你好你好你好这还是我,0,10,0.0,True,2.543566,2026-06-11T06:02:52.389563+00:00
+SVS_ASR_A2_001,data/A2.wav,FunAudioLLM/SenseVoiceSmall,那我一会儿就可以测试等会儿,那我一会儿就可以测试等会儿。,那我一会儿就可以测试等会儿,那我一会儿就可以测试等会儿,0,13,0.0,True,1.520869,2026-06-11T06:02:52.389563+00:00
+SVS_ASR_B1_001,data/B1.wav,FunAudioLLM/SenseVoiceSmall,好吗你好你好这不是我,好吗。你好你好，这不是我。,好吗你好你好这不是我,好吗你好你好这不是我,0,10,0.0,True,4.675799,2026-06-11T06:02:52.390635+00:00

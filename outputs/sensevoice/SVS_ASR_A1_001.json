@@ -1,0 +1,17 @@
+{
+  "task_type": "audio_transcription",
+  "trial_id": "SVS_ASR_A1_001",
+  "provider": "siliconflow",
+  "model": "FunAudioLLM/SenseVoiceSmall",
+  "audio": "D:\\Alpha\\speaker_verification_eval\\data\\A1.wav",
+  "audio_filename": "A1.wav",
+  "http_status_code": 200,
+  "raw_text": "{\"text\":\"你好你好你好，这还是我。\"}",
+  "response_json": {
+    "text": "你好你好你好，这还是我。"
+  },
+  "transcript": "你好你好你好，这还是我。",
+  "elapsed_seconds": 2.543566,
+  "trace_id": "ti_cpyo20m9zvk8g8o6zk",
+  "created_at_utc": "2026-06-11T03:37:27.644233+00:00"
+}

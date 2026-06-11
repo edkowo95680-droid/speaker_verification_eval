@@ -1,0 +1,4 @@
+trial_id,audio,ground_truth_text
+SVS_ASR_A1_001,data/A1.wav,你好你好你好这还是我
+SVS_ASR_A2_001,data/A2.wav,那我一会儿就可以测试等会儿
+SVS_ASR_B1_001,data/B1.wav,好吗你好你好这不是我
